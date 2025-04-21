@@ -1,6 +1,6 @@
 
 
-2. Install dependencies:
+1. Install dependencies:
 
 ```shellscript
 npm install
@@ -9,7 +9,7 @@ yarn install
 ```
 
 
-3. Set up environment variables:
+2. Set up environment variables:
 Create a `.env.local` file in the root directory with the following variables:
 
 ```plaintext
@@ -20,7 +20,7 @@ REDIRECT_URI=http://localhost:3000/api/auth/callback
 ```
 
 
-4. Start the development server:
+3. Start the development server:
 
 ```shellscript
 npm run dev
@@ -29,7 +29,7 @@ yarn dev
 ```
 
 
-5. Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
 
 
 ## Configuration
